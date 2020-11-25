@@ -71,16 +71,16 @@ class App extends React.Component {
       <Grid container justify="center">
           <div style={{width: 300, height: '100%', padding: '20px'}}>
             <h3 style={{color: '#212F3D'}}>
-              С нами уже <span style={{color: '#CB4335', fontSize: 22}}>{registered} </span> 
-              из {necessary} наблюдателей
+            Бизге <span style={{color: '#CB4335', fontSize: 22}}>{registered} </span> 
+            байкоочунун ичинен {necessary} кошулду
             </h3> 
             <CircleProgressBar percent={percent}></CircleProgressBar>        
           </div>
 
           <div style={{width: 1000, height: '100%'}}>
-              <h3 style={{color: '#212F3D'}}>Сколько ещё <span style={{color: '#212F3D', fontSize: 28}}> человек </span>  нужно для прозрачных выборов: <span style={{color: '#CB4335', fontSize: 25}}>{shortage} </span></h3> 
+              <h3 style={{color: '#212F3D'}}>Таза шайлоо үчүн дагы канча <span style={{color: '#212F3D', fontSize: 28}}> адам </span> керек: <span style={{color: '#CB4335', fontSize: 25}}>{shortage} </span></h3> 
               
-              <h4 style={{color: '#212F3D'}}>(Число наблюдателей «Клоопа» по регионам)</h4> 
+              <h4 style={{color: '#212F3D'}}>(«Клооптун» байкоочуларынын саны, аймактар боюнча)</h4> 
               <Map 
                 setTooltipContent={this.handleContentTooltip} 
                 onDistrictClick={this.handeOnDistrictClick} 

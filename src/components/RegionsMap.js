@@ -54,7 +54,7 @@ const getColor = (district, data) => {
 const generateDistrictInfo = (district, data) => { 
   let registered = data[district]
   let necessary = data[district + '_All'] 
-  return registered + ' из ' + necessary
+  return necessary + ' ичинен ' + registered
 }
 
 
@@ -139,7 +139,7 @@ const MapChart = (props) => {
 
           <Marker coordinates={[75.75,41.55]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='16'>
-              Нарынская область
+              Нарын облусу
             </text>
           </Marker>
 
@@ -151,7 +151,7 @@ const MapChart = (props) => {
 
           <Marker coordinates={[78.00,42.35]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='16'>
-              Иссык-Кульская область
+              Ысык-Көл облусу
             </text>
           </Marker>
 
@@ -163,11 +163,11 @@ const MapChart = (props) => {
 
           <Marker coordinates={[74.5, 42.70]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='14'>
-              Чуйская область
+              Чүй облусу
             </text>
           </Marker>
 
-          <Marker coordinates={[75.75, 43.00]} fill="#777">
+          <Marker coordinates={[75.75, 43.15]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='15'>
               Бишкек ({generateDistrictInfo('Бишкек', props.data)})
             </text>
@@ -181,7 +181,7 @@ const MapChart = (props) => {
 
           <Marker coordinates={[71.95, 42.50]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='14'>
-              Таласская область
+              Талас облусу
             </text>
           </Marker>
 
@@ -193,11 +193,11 @@ const MapChart = (props) => {
 
           <Marker coordinates={[72.25, 41.70]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='16'>
-              Джалал-Абадская область
+              Жалал-Абад облусу
             </text>
           </Marker>
 
-          <Marker coordinates={[73.4, 40.10]} fill="#777">
+          <Marker coordinates={[73.3, 40.10]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='20'>
               {generateDistrictInfo('Ошская', props.data)}
             </text>
@@ -205,7 +205,7 @@ const MapChart = (props) => {
 
           <Marker coordinates={[73.4, 40.30]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='16'>
-              Ошская область
+              Ош облусу
             </text>
           </Marker>
 
@@ -223,7 +223,7 @@ const MapChart = (props) => {
 
           <Marker coordinates={[70.75, 39.85]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='16'>
-              Баткенская область
+              Баткен облусу
             </text>
           </Marker>
 
