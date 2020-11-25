@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/observer-progress-kg/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/observer-progress-kg/static/js/main.859fc48b.chunk.js",
-    "main.js.map": "/observer-progress-kg/static/js/main.859fc48b.chunk.js.map",
+    "main.js": "/observer-progress-kg/static/js/main.4e29e09e.chunk.js",
+    "main.js.map": "/observer-progress-kg/static/js/main.4e29e09e.chunk.js.map",
     "runtime-main.js": "/observer-progress-kg/static/js/runtime-main.cdda3344.js",
     "runtime-main.js.map": "/observer-progress-kg/static/js/runtime-main.cdda3344.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/observer-progress-kg/static/css/2.6c0f60ba.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.d73620e1.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.859fc48b.chunk.js"
+    "static/js/main.4e29e09e.chunk.js"
   ]
 }
