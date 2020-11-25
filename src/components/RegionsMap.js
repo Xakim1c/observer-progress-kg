@@ -209,7 +209,7 @@ const MapChart = (props) => {
             </text>
           </Marker>
 
-          <Marker coordinates={[73.65, 40.65]} fill="#777">
+          <Marker coordinates={[73.45, 40.80]} fill="#777">
             <text textAnchor="middle" fill="#212F3D" fontWeight='bold' fontSize='15'>
               Ош ({generateDistrictInfo('Ош', props.data)})
             </text>
