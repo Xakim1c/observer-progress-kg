@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/observer-progress-kg/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/observer-progress-kg/static/js/main.859fc48b.chunk.js",
+    "main.js.map": "/observer-progress-kg/static/js/main.859fc48b.chunk.js.map",
+    "runtime-main.js": "/observer-progress-kg/static/js/runtime-main.cdda3344.js",
+    "runtime-main.js.map": "/observer-progress-kg/static/js/runtime-main.cdda3344.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "/observer-progress-kg/static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.d73620e1.chunk.js": "/observer-progress-kg/static/js/2.d73620e1.chunk.js",
+    "static/js/2.d73620e1.chunk.js.map": "/observer-progress-kg/static/js/2.d73620e1.chunk.js.map",
+    "static/js/3.53c21432.chunk.js": "/observer-progress-kg/static/js/3.53c21432.chunk.js",
+    "static/js/3.53c21432.chunk.js.map": "/observer-progress-kg/static/js/3.53c21432.chunk.js.map",
+    "index.html": "/observer-progress-kg/index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "/observer-progress-kg/static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.8c8b27cf.chunk.css.map": "/observer-progress-kg/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d73620e1.chunk.js.LICENSE.txt": "/observer-progress-kg/static/js/2.d73620e1.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/observer-progress-kg/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cdda3344.js",
+    "static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.d73620e1.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.859fc48b.chunk.js"
+  ]
+}
